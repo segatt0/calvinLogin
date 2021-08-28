@@ -1,0 +1,17 @@
+#loginScreen {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.right {
+  height: 100vh;
+  width: 70%;
+  background-image: url('./../../Assets/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
