@@ -68,7 +68,7 @@ function Login() {
               ref={discordMouse}
               onMouseOver={handleMouseDiscordHover}
               onMouseOut={handleMouseDiscordOut}
-              class="animate__animated "
+              class="animate__animated animate__flash"
               className="enjoy"
             >
               Join our Discord

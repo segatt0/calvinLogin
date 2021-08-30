@@ -2,12 +2,52 @@
   display: flex;
 }
 
+.rei {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rei h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+}
+
+.email {
+  font-size: 15px;
+}
+
+.conta {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  color: #c6992f;
+}
+
+.conta p a {
+  text-decoration: none;
+}
+
 .left {
   width: 30%;
   height: 100vh;
-  background-color: aquamarine;
-}
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  height: 80%;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  height: 20%;
+  width: 100%;
+}
 .right {
   height: 100vh;
   width: 70%;
@@ -15,3 +55,65 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+form {
+  width: 300px;
+}
+
+.botao {
+  margin-top: 10%;
+}
+
+.botao button {
+  width: 308px;
+  height: 50px;
+  border: none;
+  color: white;
+  background: black;
+  cursor: pointer;
+
+  border-radius: 2px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.inputWrapper input {
+  width: 94%;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom a {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bottom img {
+  width: 40px;
+}
+
+.bottom a p {
+  margin-left: 5px;
+}
+
+/* .botao button:hover ~ .right {
+  transition: 0.3s;
+  opacity: 50%;
+  background: red;
+} */
