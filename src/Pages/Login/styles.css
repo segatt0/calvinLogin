@@ -56,6 +56,14 @@
   background-size: cover;
 }
 
+/* .right2 {
+  height: 100vh;
+  width: 70%;
+  background-image: url('./../../Assets/calvinspace.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 form {
   width: 300px;
 }
@@ -117,3 +125,20 @@ form {
   opacity: 50%;
   background: red;
 } */
+
+/*teste*/
+
+/* canvas {
+  //opacity: 0.5;
+} */
+
+.right2 {
+  background: black;
+  height: 100vh;
+}
+
+.right2 #canvas {
+  background: black;
+  position: fixed;
+  opacity: 0.4;
+}
