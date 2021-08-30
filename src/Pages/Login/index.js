@@ -3,6 +3,7 @@ import './styles.css';
 import img1 from './../../../src/Assets/img1.jpg';
 import calvinspace from './../../../src/Assets/calvinspace.png';
 import discord from './../../Assets/discord.png';
+import discord_white from './../../Assets/discord_white.png';
 import 'animate.css';
 
 // let discordMouse = document.querySelector('.enjoy');
@@ -175,13 +176,14 @@ function Login() {
           </form>
         </div>
         <div className="bottom">
-          <a>
-            <img src={discord} alt="fio" />
+          <a id="joinDiscord">
+            <img id="discordIconOrange" src={discord} alt="fio" />
+            <img id="discordIconWhite" src={discord_white} alt="fio" />
             <p
-              ref={discordMouse}
-              onMouseOver={handleMouseDiscordHover}
-              onMouseOut={handleMouseDiscordOut}
-              className="enjoy animate__animated "
+            // ref={discordMouse}
+            // onMouseOver={handleMouseDiscordHover}
+            // onMouseOut={handleMouseDiscordOut}
+            // className="enjoy animate__animated"
             >
               Join our Discord
             </p>
