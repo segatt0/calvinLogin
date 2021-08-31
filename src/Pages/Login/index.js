@@ -2,9 +2,12 @@ import React, { useRef, useState, useEffect } from 'react';
 import './styles.css';
 import img1 from './../../../src/Assets/img1.jpg';
 import calvinspace from './../../../src/Assets/calvinspace.png';
-import discord from './../../Assets/discord.png';
-import discord_white from './../../Assets/discord_white.png';
+import discordBlack from './../../Assets/discordBlack.png';
+import discord2 from './../../Assets/discord2.png';
 import 'animate.css';
+import imgemail from './../../Assets/imgemail.png';
+import imgpass from './../../Assets/imgpass.png';
+import googleP from './../../Assets/googlePlay.png';
 
 // let discordMouse = document.querySelector('.enjoy');
 // discordMouse.addEventListener(
@@ -157,11 +160,16 @@ function Login() {
               <h1>Login Screen</h1>
               <div className="inputWrapper">
                 <p className="email">Email</p>
-                <input type="email" placeholder="Digite seu email"></input>
+                <input type="email" placeholder="Enter your email"></input>
+                <img className="littleemail" src={imgemail} />
               </div>
               <div className="inputWrapper">
                 <p className="email">Password</p>
-                <input type="Password" placeholder="Digite sua senha"></input>
+                <input
+                  type="Password"
+                  placeholder="Enter your password"
+                ></input>
+                <img className="littlePass" src={imgpass} />
               </div>
               <div className="botao">
                 <button>Sign Up</button>
@@ -170,15 +178,20 @@ function Login() {
                 <p>
                   <strong>Don't have an account?</strong>{' '}
                   <a href="#">Click Here!</a>
+                  <div className="signIn"></div>
                 </p>
               </div>
             </div>
           </form>
         </div>
         <div className="bottom">
+          <div className="googleDiv">
+            <img src={googleP} alt="" />
+          </div>
           <a id="joinDiscord">
-            <img id="discordIconOrange" src={discord} alt="fio" />
-            <img id="discordIconWhite" src={discord_white} alt="fio" />
+            <img id="discordIconOrange" src={discordBlack} alt="fio" />
+            <img id="discordIconWhite" src={discordBlack} alt="fio" />
+
             <p
             // ref={discordMouse}
             // onMouseOver={handleMouseDiscordHover}
