@@ -217,9 +217,9 @@ form {
 }
 
 .googleDiv img {
-  width: 156px;
-  height: 108px;
+  width: 138px;
+  height: auto;
   margin-left: 6%;
   cursor: pointer;
-  margin-top: -37%;
+  margin-bottom: 37%;
 }
