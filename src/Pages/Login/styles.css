@@ -37,12 +37,12 @@
   align-items: center;
 }
 .top {
-  height: 80%;
-
+  height: 86%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: red; */
 }
 .bottom {
   height: 20%;
@@ -119,12 +119,15 @@ form {
 .bottom {
   display: flex;
   align-items: flex-end;
+  height: 14%;
+  /* margin-top: 35px; */
+  /* background-color: blue; */
 }
 
 .bottom a {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 133px;
   margin-bottom: 11px;
   cursor: pointer;
   /* background-color: black;
@@ -176,7 +179,7 @@ form {
   align-items: center;
   justify-content: center;
   width: 180px;
-  height: 39%;
+  height: 58%;
 }
 
 #joinDiscord:hover {
@@ -190,12 +193,14 @@ form {
   /* padding-left: 15px; */
 }
 #discordIconOrange {
-  width: 42px;
-  height: 41px;
+  width: 52px;
+  height: auto;
 }
 
 #discordIconWhite {
   display: none;
+  width: 52px;
+  height: auto;
 }
 
 #joinDiscord:hover > #discordIconOrange {
@@ -208,18 +213,14 @@ form {
   filter: invert();
 }
 
-.googleDiv {
-  display: flex;
-  align-items: center;
-  width: 185px;
-  height: 58px;
-  margin-right: 3%;
+.facebook {
+  width: 47px;
+  height: auto;
 }
 
-.googleDiv img {
-  width: 138px;
+.googleIcon {
+  width: 47px;
   height: auto;
-  margin-left: 6%;
-  cursor: pointer;
-  margin-bottom: 37%;
+  margin-left: 20px;
+  margin-top: 2pc;
 }

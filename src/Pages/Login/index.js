@@ -8,6 +8,8 @@ import 'animate.css';
 import imgemail from './../../Assets/imgemail.png';
 import imgpass from './../../Assets/imgpass.png';
 import googleP from './../../Assets/googlePlay.png';
+import googleIcon from './../../Assets/googleIcon.png';
+import facebookIcon from './../../Assets/facebookIcon.png';
 
 // let discordMouse = document.querySelector('.enjoy');
 // discordMouse.addEventListener(
@@ -179,15 +181,14 @@ function Login() {
                   <strong>Don't have an account?</strong>{' '}
                   <a href="#">Click Here!</a>
                   <div className="signIn"></div>
+                  <img src={facebookIcon} className="facebook" />
+                  <img src={googleIcon} className="googleIcon" />
                 </p>
               </div>
             </div>
           </form>
         </div>
         <div className="bottom">
-          <div className="googleDiv">
-            <img src={googleP} alt="" />
-          </div>
           <a id="joinDiscord">
             <img id="discordIconOrange" src={discordBlack} alt="fio" />
             <img id="discordIconWhite" src={discordBlack} alt="fio" />
