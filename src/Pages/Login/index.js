@@ -181,8 +181,10 @@ function Login() {
                   <strong>Don't have an account?</strong>{' '}
                   <a href="#">Click Here!</a>
                   <div className="signIn"></div>
-                  <img src={facebookIcon} className="facebook" />
-                  <img src={googleIcon} className="googleIcon" />
+                  <div id="face">
+                    <img src={facebookIcon} className="facebook" />
+                    <img src={googleIcon} className="googleIcon" />
+                  </div>
                 </p>
               </div>
             </div>

@@ -212,8 +212,18 @@ form {
   display: block;
   filter: invert();
 }
+#face {
+  display: flex;
+  align-items: center;
 
-.facebook {
+  margin-top: 1px;
+  position: absolute;
+  justify-content: space-around;
+  width: 204px;
+  height: 100px;
+}
+
+/* .facebook {
   width: 47px;
   height: auto;
 }
@@ -221,6 +231,28 @@ form {
 .googleIcon {
   width: 47px;
   height: auto;
-  margin-left: 20px;
-  margin-top: 2pc;
+  /* margin-left: 20px;
+  margin-top: 2pc; */
+
+.facebook,
+.googleIcon {
+  width: 47px;
+  height: 47px;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  transition: 0.3s;
+  border-radius: 4px;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.googleIcon:hover {
+  transition: 0.3s;
+  border-radius: 4px;
+  border: none;
+  width: 60px;
+  height: 60px;
 }
