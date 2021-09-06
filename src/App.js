@@ -1,13 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 import Login from './Pages/Login/index';
+import Cadastro from './Pages/Cadastro/index';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <Login />
-    </div>
+    <Router>
+        <Switch>
+
+          <Route path="/login">
+            <Login />
+          </Route>
+
+          <Route path="/cadastro">
+            <Cadastro/>
+          </Route>
+
+          <Route path="/">
+            <Login/>
+          </Route>
+
+        </Switch>
+    </Router>
   );
 }
-
-export default App;

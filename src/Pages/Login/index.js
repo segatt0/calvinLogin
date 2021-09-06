@@ -178,8 +178,8 @@ function Login() {
               </div>
               <div className="conta">
                 <p>
-                  <strong>Don't have an account?</strong>{' '}
-                  <a href="#">Click Here!</a>
+                  <strong>Don't have an account?</strong>
+                  <a href="/cadastro"> Click Here!</a>
                   <div className="signIn"></div>
                   <div id="face">
                     <img src={facebookIcon} className="facebook" />
@@ -191,7 +191,7 @@ function Login() {
           </form>
         </div>
         <div className="bottom">
-          <a id="joinDiscord">
+          {/* <a id="joinDiscord">
             <img id="discordIconOrange" src={discordBlack} alt="fio" />
             <img id="discordIconWhite" src={discordBlack} alt="fio" />
 
@@ -203,7 +203,7 @@ function Login() {
             >
               Join our Discord
             </p>
-          </a>
+          </a> */}
         </div>
       </div>
       {/* <div ref={refRight} className="right"></div> */}
