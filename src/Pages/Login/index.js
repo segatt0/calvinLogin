@@ -174,7 +174,7 @@ function Login() {
                 <img className="littlePass" src={imgpass} />
               </div>
               <div className="botao">
-                <button>Sign Up</button>
+                <button>Login</button>
               </div>
               <div className="conta">
                 <p>
