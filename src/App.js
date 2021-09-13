@@ -1,32 +1,30 @@
 import './App.css';
 import Login from './Pages/Login/index';
 import Cadastro from './Pages/Cadastro/index';
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-
+import Todo from './Pages/Todo/index';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
   return (
     <Router>
-        <Switch>
+      <Switch>
+        <Route path="/login">
+          <Login />
+        </Route>
 
-          <Route path="/login">
-            <Login />
-          </Route>
+        <Route path="/cadastro">
+          <Cadastro />
+        </Route>
 
-          <Route path="/cadastro">
-            <Cadastro/>
-          </Route>
+        <Route path="/todo">
+          <Todo />
+        </Route>
 
-          <Route path="/">
-            <Login/>
-          </Route>
-
-        </Switch>
+        <Route path="/">
+          <Login />
+        </Route>
+      </Switch>
     </Router>
   );
 }

@@ -48,7 +48,15 @@ function Cadastro() {
                 />
               </DivFormInputPass>
               <DivBotao>
-                <button className="botau"> Join </button>
+                <button
+                  className="botau"
+                  onClick={() =>
+                    (window.location.href = 'http://localhost:3001/Todo')
+                  }
+                >
+                  {' '}
+                  Join{' '}
+                </button>
               </DivBotao>
             </DivFormSubContainer>
             <DivFormBottom>
